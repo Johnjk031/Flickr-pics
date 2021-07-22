@@ -5,7 +5,9 @@ const searchQuery = document.querySelector('#query');
 const amount = document.querySelector('#amount');
 const imgList = document.querySelector('#images');
 const url = 'https://api.flickr.com/services/rest?method=flickr.photos.search';
-const key = config.MY_API_KEY
+
+const key = config.MY_API_KEY // get your own key at: https://identity.flickr.com/account-picker    
+
 const bigImg = document.getElementById('img-big');
 let text = document.getElementById('descr-par')
 const privious = document.querySelector('#privious');
